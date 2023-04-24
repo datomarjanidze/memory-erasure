@@ -1,0 +1,36 @@
+{
+  "name": "memory-erasure",
+  "version": "1.5.0",
+  "description": "Node.js package intended to replace the deleted file content with random numbers.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Dato Marjanidze <datomarjanidze10@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/datomarjanidze/memory-erasure#readme",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "keywords": [
+    "erase",
+    "memory",
+    "deleted",
+    "file",
+    "content"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datomarjanidze/memory-erasure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/datomarjanidze/memory-erasure/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.4"
+  }
+}
