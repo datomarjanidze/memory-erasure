@@ -35,10 +35,10 @@ that contain this sensitive data.
 ```ts
 import { eraseMemory } from 'memory-erasure'
 
-eraseMemory((err, data) => {
+eraseMemory((err, status) => {
   if (err) console.error(err)
-  else if (data)
-    console.log(`erased ${data.erasedMemoryByteLength / 1e6 / 1e3} GB`)
+  else if (status)
+    console.log(`erased ${status.erasedMemoryByteLength / 1e6 / 1e3} GB`)
 })
 ```
 
