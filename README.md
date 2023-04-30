@@ -1,4 +1,4 @@
-## Memory Erasure
+## Memory Erasure v1.6.0 Documentation
 
 <img src="icon.png" alt="logo" height="200px" >
 
@@ -12,9 +12,10 @@
 
 - [Installation](#Installation)
 - [Description](#Description)
-- [Example](#Example)
-- [Interfaces](#Interfaces)
-- [eraseMemory](#eraseMemory)
+- [Usage example](#Usage-example)
+- [API](#API)
+  - [Interfaces](#Interfaces)
+  - [eraseMemory](#eraseMemory)
 
 ### Installation
 
@@ -30,7 +31,7 @@ iteration. This package is useful when you want to completely erase
 the sensitive data from the disk sectors after you delete the file(s)
 that contain this sensitive data.
 
-### Example
+### Usage example
 
 ```ts
 import { eraseMemory } from 'memory-erasure'
@@ -42,7 +43,9 @@ eraseMemory((err, status) => {
 })
 ```
 
-### Interfaces
+### API
+
+#### Interfaces
 
 ```ts
 type Callback = (err: any, data: null | IStatus) => void
@@ -55,7 +58,7 @@ interface IStatus {
 }
 ```
 
-### eraseMemory
+#### eraseMemory
 
 - `cb: Callback`
 - Returns: `IStatus`
