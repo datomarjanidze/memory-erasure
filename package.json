@@ -1,6 +1,6 @@
 {
   "name": "memory-erasure",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Node.js package intended to replace the deleted file content with random numbers.",
   "main": "dist/memory-erasure.cjs.js",
   "module": "dist/memory-erasure.esm.js",

@@ -1,11 +1,10 @@
-## Memory Erasure v1.6.0 Documentation
+## Memory Erasure v1.7.0 Documentation
 
 <img src="icon.png" alt="logo" height="200px" >
 
 <p align="center">
   <a href="https://www.npmjs.com/package/memory-erasure" target="_blank"><img src="https://img.shields.io/npm/v/memory-erasure.svg" alt="NPM Version" /></a>
   <a href="https://www.npmjs.com/package/memory-erasure" target="_blank"><img src="https://img.shields.io/npm/l/memory-erasure.svg" alt="Package License" /></a>
-  <a href="https://www.npmjs.com/package/memory-erasure" target="_blank"><img src="https://img.shields.io/npm/dm/memory-erasure.svg" alt="NPM Downloads" /></a>
 </p>
 
 ### Table of contents
